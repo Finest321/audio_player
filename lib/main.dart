@@ -20,25 +20,25 @@ class _AudioPlayerUIState extends State<AudioPlayerUI> {
   bool isPlaying = false;
 
   void playAudio() {
-    // Implement play functionality here
+
     setState(() {
       isPlaying = true;
     });
   }
 
   void stopAudio() {
-    // Implement stop functionality here
+
     setState(() {
       isPlaying = false;
     });
   }
 
   void playNextSong() {
-    // Implement forward functionality here
+
   }
 
   void playPreviousSong() {
-    // Implement backward functionality here
+
   }
 
   @override
